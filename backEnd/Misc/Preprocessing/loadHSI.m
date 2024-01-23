@@ -15,6 +15,11 @@ elseif strcmp(HSIName, 'Salinas')
     HSI = load('Salinas_corrected').salinas_corrected;
     GT = load('Salinas_gt').salinas_gt;
     
+elseif strcmp(HSIName, 'WHU')
+
+    HSI = load('WHU_Hi_LongKou').WHU_Hi_LongKou;
+    GT = load('WHU_Hi_LongKou_gt').WHU_Hi_LongKou_gt;
+    
 elseif strcmp(HSIName, 'JasperRidge')
 
     HSI = reshape(load('jasperRidge2_R198.mat').Y', load('jasperRidge2_R198.mat').nRow, load('jasperRidge2_R198.mat').nCol, length(load('jasperRidge2_R198.mat').SlectBands));

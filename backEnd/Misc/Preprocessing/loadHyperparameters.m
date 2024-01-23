@@ -171,6 +171,13 @@ elseif strcmp(AlgName, 'SRDL')
         R = 4;
         K = 16;
         Hyperparameters.SpatialParams.ConsensusSpatialRadius = 2;
+
+    elseif strcmp(HSIName, 'WHU')
+        NN = 0;
+        pct = 0;
+        R = 0;
+        K = 9;
+        Hyperparameters.SpatialParams.ConsensusSpatialRadius = 2;
     end
     
     % Set Default parameters
@@ -362,7 +369,13 @@ elseif strcmp(AlgName, 'DLSS')
         pct = 0;
         R = 0;
         K = 16;
-        Hyperparameters.SpatialParams.ConsensusSpatialRadius = 2;
+
+    elseif strcmp(HSIName, 'WHU')
+        NN = 0;
+        pct = 0;
+        R = 0;
+        K = 9;
+        
     end
     
     % Set Default parameters

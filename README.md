@@ -11,9 +11,32 @@ Notes:
 ## References
 **Cui, K., Li, R., Polk, S.L., Lin, Y., Zhang, H., Murphy, J.M., & Plemmons, R. J., Chan, R. H.**. "Superpixel-based and Spatially-regularized Diffusion Learning Method for Unsupervised Hyperspectral Image Clustering". in *ArXiv*, 2023. [Link](https://arxiv.org/abs/2312.15447).
 
+## Using Benchmark Datasets with S2DL
+
+To facilitate the use of benchmark datasets with the S2DL framework, follow these simple steps. This will ensure that you can seamlessly run S2DL with widely recognized datasets for unsupervised hyperspectral image clustering.
+
+### Step 1: Downloading the Data
+
+1. Visit the following URL to access a collection of benchmark hyperspectral datasets: [RS Lab Data Repository](https://rslab.ut.ac.ir/data).
+2. Select the dataset you wish to use with the S2DL framework. Download options for various datasets are provided on the website.
+
+### Step 2: Preparing the Dataset
+
+1. Once downloaded, save the dataset into a folder within the working directory of MATLAB. This is crucial for the S2DL code to access and process the dataset correctly.
+    - For example, if your MATLAB working directory is `C:\MATLAB\Projects\S2DL`, you could create a new folder within it named `Datasets` and save your downloaded dataset there, resulting in a path like `C:\MATLAB\Projects\S2DL\Datasets`.
+
+### Step 3: Running the Framework
+
+1. Open MATLAB and navigate to the S2DL project's working directory.
+2. Launch the `S2DL_main.m` script. The script will automatically detect datasets placed within the appropriate directory and proceed with the unsupervised hyperspectral image clustering process.
+    - Make sure that any modifications required to specify the dataset path within the `s2dl_main.m` script or related files are correctly set to point to where you have saved your benchmark dataset.
+
+By following these steps, you'll be able to utilize benchmark datasets, such as Indian Pines, Salinas and Salinas A, to evaluate the performance of the S2DL framework effectively.
+
+
 ## Custom Data Integration Guide
 
-To adapt the S2DL codebase for your own multispectral dataset, follow these steps:
+To adapt the S2DL codebase for your own hyperspectral dataset, follow these steps:
 
 ### Step 1: Preparing Your Data
 
@@ -49,4 +72,4 @@ To adapt the S2DL codebase for your own multispectral dataset, follow these step
 
 Now, you're set to run S2DL with your dataset. Simply choose your data when prompted by `S2DL_main.m`.
 
-By following these steps, you'll be able to integrate and utilize your own multispectral dataset within the S2DL framework, expanding its application to new and unique datasets.
+By following these steps, you'll be able to integrate and utilize your own hyperspectral dataset within the S2DL framework, expanding its application to new and unique datasets.

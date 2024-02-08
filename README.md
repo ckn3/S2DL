@@ -33,7 +33,7 @@ To facilitate the use of benchmark datasets with the S2DL framework, follow thes
 By following these steps, you'll be able to utilize benchmark datasets, such as Indian Pines, Salinas and Salinas A, to evaluate the performance of the S2DL framework effectively.
 
 
-## Custom Data Integration Guide
+## Using Custom Datasets with S2DL
 
 To adapt the S2DL codebase for your own hyperspectral dataset, follow these steps:
 

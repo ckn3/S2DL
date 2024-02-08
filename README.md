@@ -22,9 +22,9 @@ To adapt the S2DL codebase for your own multispectral dataset, follow these step
 
     ```matlab
     elseif strcmp(HSIName, 'Your_Data_Name')
-        HSI = % Load your Multispectral data here, with shape m*n*p, where:
+        HSI = % Load your Hyperspectral data here, with shape m*n*p, where:
               % m and n are the spatial dimensions, and p denotes the number of spectral bands.
-        GT = % Load your ground truth for the Multispectral data here, with shape m*n.
+        GT = % Load your ground truth for the Hyperspectral data here, with shape m*n.
     ```
 
     Replace 'Your_Data_Name' with your dataset's identifier and provide the appropriate loading commands for `HSI` and `GT`.

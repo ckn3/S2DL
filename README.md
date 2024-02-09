@@ -11,6 +11,8 @@ Notes:
 ## References
 **Cui, K., Li, R., Polk, S.L., Lin, Y., Zhang, H., Murphy, J.M., & Plemmons, R. J., Chan, R. H.**. "Superpixel-based and Spatially-regularized Diffusion Learning Method for Unsupervised Hyperspectral Image Clustering". in *ArXiv*, 2023. [Link](https://arxiv.org/abs/2312.15447).
 
+**Polk, S.L., Cui, K., Chan, A. H., Coomes, D. A., Plemmons, R. J., & Murphy, J.M.**. "Unsupervised Diffusion and Volume Maximization-Based Clustering of Hyperspectral Images". in *Remote Sensing*, 15(4), 1053, 2023. [Link](https://www.mdpi.com/2072-4292/15/4/1053).
+
 ## Using Benchmark Datasets with S2DL
 
 To facilitate the use of benchmark datasets with the S2DL framework, follow these simple steps. This will ensure that you can seamlessly run S2DL with widely recognized datasets for unsupervised hyperspectral image clustering.

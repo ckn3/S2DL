@@ -52,21 +52,7 @@ if strcmp(AlgName, 'D-VIC')
 
 elseif strcmp(AlgName, 'S2DL')
 
-    if strcmp(HSIName, 'Synthetic Data')
-        R = 0;
-        p = 0;
-        nk = 0;
-        NN  = 0;
-        pct = 0;
-        K = 3;
-    elseif strcmp(HSIName, 'SalinasA')
-        R = 7;
-        p = 1000;
-        nk = 5;
-        NN  = 50;
-        pct = 10;
-        K = 6;
-    elseif strcmp(HSIName, 'Salinas')
+   if strcmp(HSIName, 'Salinas')
         R = 11;
         p = 1500;
         nk = 3;
@@ -87,8 +73,14 @@ elseif strcmp(AlgName, 'S2DL')
         NN = 20;
         pct = 55;
         K = 16;
+    elseif strcmp(HSIName, 'WHU')
+        R = 60;
+        p = 700;
+        nk = 5;
+        NN = 10;
+        pct = 10;
+        K = 9;
     end
-
     % Set Default parameters
     [~,Dist_NN] = knnsearch(X,X,'K', NN+1);
     Dist_NN(:,1) = [];

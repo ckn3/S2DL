@@ -28,7 +28,7 @@ To facilitate the use of benchmark datasets with the S2DL framework, follow thes
 ### Step 3: Running the Framework
 
 1. Open MATLAB and navigate to the S2DL project's working directory.
-2. Launch the `S2DL_main.m` script. The script will automatically detect datasets placed within the appropriate directory and proceed with the unsupervised hyperspectral image clustering process.
+2. Launch the `S2DL_main.m` script. The script will automatically detect datasets placed within the appropriate directory and proceed with the unsupervised hyperspectral image clustering process. The best parameters for datasets listed in the paper are located at `backEnd/Misc/Preprocessing/loadHyperparameters.m`.
 
 By following these steps, you'll be able to utilize benchmark datasets, such as Indian Pines, Salinas and Salinas A, to evaluate the performance of the S2DL framework effectively.
 

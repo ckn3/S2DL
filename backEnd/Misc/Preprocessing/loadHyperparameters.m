@@ -59,13 +59,13 @@ elseif strcmp(AlgName, 'S2DL')
         NN  = 10;
         pct = 70;
         K = 16;
-    elseif strcmp(HSIName, 'JasperRidge')
-        R = 0;
-        p = 0;
-        nk = 0;
-        NN  = 0;
-        pct = 0;
-        K = 4;
+    elseif strcmp(HSIName, 'SalinasA')
+        R = 7;
+        p = 1000;
+        nk = 5;
+        NN  = 50;
+        pct = 10;
+        K = 6;
     elseif strcmp(HSIName, 'IndianPines')
         R = 9;
         p = 1000;
